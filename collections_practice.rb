@@ -7,7 +7,7 @@ def sort_array_desc(integers)
 end
 
 def sort_array_char_count(strings)
-  strings.sort {|left, right| left.length <=> right.length
+  strings.sort {|left, right| left.length <=> right.length}
 end
 
 def swap_elements(strings)
@@ -24,3 +24,5 @@ def reverse_array(integers)
   new_array = integers.reverse
   new_array
 end
+
+def kesha_maker(array)
